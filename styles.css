@@ -57,10 +57,9 @@
 .icon i {
   color: #231f20dc;
   margin-left: -50px;
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   display: flex;
 }
-
 
 .search {
   height: 20px;
@@ -121,4 +120,49 @@
   align-items: center;
   justify-content: center;
   color: #ffffff;
+}
+
+.dmacc-slide {
+  background-image: url("dmacc.jpg");
+  height: 600px;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: center;
+  height: 423px;
+}
+
+.hero-text h1 {
+  margin-top: 50px;
+  font-weight: 500;
+}
+
+.hero-text p {
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-top: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #231f20;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero-text a {
+  text-decoration: none;
+  border: 2px solid rgb(34, 34, 185);
+  border-radius: 35px;
+  margin-bottom: 50px;
+  margin: 15px 468px;
+  padding: 12px 15px;
+}
+
+.hero-text a:hover {
+  background-color: rgb(15, 90, 221);
+  border-radius: 35px;
+  color: whitesmoke;
+  font-size: 1rem;
 }
